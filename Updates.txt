@@ -1,0 +1,49 @@
+%*************************************************************************
+% The source code contained herein was developed for Embry-Riddle 
+% Aeronautical University by Glenn P. Greiner, Professor and Jafar 
+% Mohammed, Student Assistant of the Aerospace Engineering Department, 
+% Daytona Beach Campus. Copyright 2008. All rights reserved.
+
+% Although due care has been taken to present accurate programs this 
+% software is provided "as is" WITHOUT WARRANTY OF ANY KIND, EITHER 
+% EXPRESSED OR IMPLIED, AND EXPLICITLY EXCLUDING ANY IMPLIED WARRANTIES 
+% OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE. The entire risk as 
+% to the quality and performance of the software is with the user. The 
+% program is made available only for education and personal research. It 
+% may not be sold to other parties. If you copy some or all of the 
+% software you are requested to return a copy of any source additions that
+% you believe make a significant improvement in its range of application.
+%*************************************************************************
+
+Version 1.0
+------------------
+- Ability to plot airplane using input variables from Digital Datcom
+- Core files include:
+  - plotFuselage.m
+  - plotWing.m
+  - plotHT.m
+  - plotVT.m 
+- Also provided was a template datcom3d input file - for building a model
+
+
+Version 1.1
+------------------
+- Added surface names, which show up in plot browser
+- Modified template file
+- Plot Browser turned on by default
+- Wireframe model set as default
+- Note: Version 1.0 input files cannot work with Version 1.1
+
+
+Version 1.2
+------------------
+- Plot Browser turned off by default
+- Added symmetrical flaps on wing and HT
+- Added asymmetrical flaps on wing
+- Modified:
+  - Template file
+  - plotWing.m
+  - plotHT.m
+- Note: Version 1.0 or 1.1 input files cannot work with Version 1.2
+        Flaps and Ailerons only work on single planform wings and tails
+        (i.e. CHRDBP=0)  

@@ -1,0 +1,6 @@
+In order to execute, these files must be placed
+in the same directory as:
+ - plotFuselage.m
+ - plotWing.m
+ - plotHT.m
+ - plotVT.m
